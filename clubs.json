@@ -1,0 +1,121 @@
+{
+  "ligue-1": {
+    "olympique-lyonnais": {
+      "name": "Olympique Lyonnais",
+      "initials": "OL",
+      "image": "https://footapi.hugo.rest/images/ligue-1/OL.svg"
+    },
+    "olympique-de-marseille": {
+      "name": "Olympique de Marseille",
+      "initials": "OM",
+      "image": "https://footapi.hugo.rest/images/ligue-1/OM.svg"
+    },
+    "paris-saint-germain": {
+      "name": "Paris Saint-Germain",
+      "initials": "PSG",
+      "image": "https://footapi.hugo.rest/images/ligue-1/PSG.svg"
+    },
+    "asse": {
+      "name": "Association Sportive de Saint-Étienne",
+      "initials": "ASSE",
+      "image": "https://footapi.hugo.rest/images/ligue-1/ASSE.svg"
+    },
+    "stade-rennais": {
+      "name": "Stade Rennais",
+      "initials": "SR",
+      "image": "https://footapi.hugo.rest/images/ligue-1/Stade-Rennais.svg"
+    },
+    "ogc-nice": {
+      "name": "Olympique Gymnaste Club Nice",
+      "initials": "OGC Nice",
+      "image": "https://footapi.hugo.rest/images/ligue-1/OGC-Nice.svg"
+    },
+    "rc-strasbourg": {
+      "name": "Racing Club de Strasbourg Alsace",
+      "initials": "RC Strasbourg Alsace",
+      "image": "https://footapi.hugo.rest/images/ligue-1/RC-Strasbourg.svg"
+    },
+    "losc": {
+      "name": "Lille Olympique Sporting Club",
+      "initials": "LOSC",
+      "image": "https://footapi.hugo.rest/images/ligue-1/LOSC.svg"
+    },
+    "as-monaco": {
+      "name": "Association sportive de Monaco Football Club",
+      "initials": "AS Monaco FC",
+      "image": "https://footapi.hugo.rest/images/ligue-1/AS-Monaco-FC.svg"
+    },
+    "rc-lens": {
+      "name": "Racing Club de Lens",
+      "initials": "RC Lens",
+      "image": "https://footapi.hugo.rest/images/ligue-1/RC-Lens.svg"
+    },
+    "montpellier-hsc": {
+      "name": "Montpellier Hérault Sport Club",
+      "initials": "MHSC",
+      "image": "https://footapi.hugo.rest/images/ligue-1/MHSC.svg"
+    },
+    "stade-de-reims": {
+      "name": "Stade de Reims",
+      "initials": "SR",
+      "image": "https://footapi.hugo.rest/images/ligue-1/Stade-de-Reims.svg"
+    },
+    "stade-brestois": {
+      "name": "Stade Brestois 29",
+      "initials": "SB29",
+      "image": "https://footapi.hugo.rest/images/ligue-1/SB29.svg"
+    },
+    "angers-sco": {
+      "name": "Angers Sporting Club de l'Ouest",
+      "initials": "Angers SCO",
+      "image": "https://footapi.hugo.rest/images/ligue-1/Angers-SCO.svg"
+    },
+    "estac": {
+      "name": "Espérance sportive Troyes Aube Champagne",
+      "initials": "ESTAC",
+      "image": "https://footapi.hugo.rest/images/ligue-1/ESTAC.png"
+    },
+    "fc-lorient": {
+      "name": "Football Club de Lorient",
+      "initials": "FC-Lorient",
+      "image": "https://footapi.hugo.rest/images/ligue-1/FC-Lorient.svg"
+    },
+    "clermont-foot-63": {
+      "name": "Clermont Foot 63",
+      "initials": "CF63",
+      "image": "https://footapi.hugo.rest/images/ligue-1/CF63.svg"
+    },
+    "fc-metz": {
+      "name": "Football Club de Metz",
+      "initials": "FC Metz",
+      "image": "https://footapi.hugo.rest/images/ligue-1/FC-Metz.svg"
+    },
+    "girondins-de-bordeaux": {
+      "name": "Football Club des Girondins de Bordeaux",
+      "initials": "FCGB",
+      "image": "https://footapi.hugo.rest/images/ligue-1/FCGB.svg"
+    }
+  },
+  "premier-league": {
+    "arsenal": {
+      "name": "Arsenal",
+      "initials": "A",
+      "image": "https://footapi.hugo.rest/images/premier-league/Arsenal.svg"
+    },
+    "chelsea": {
+      "name": "Chelsea",
+      "initials": "C",
+      "image": "https://footapi.hugo.rest/images/premier-league/Chelsea.svg"
+    },
+    "manchester-city": {
+      "name": "Manchester City",
+      "initials": "MC",
+      "image": "https://footapi.hugo.rest/images/premier-league/Manchester-City.svg"
+    },
+    "manchester-united": {
+      "name": "Manchester United",
+      "initials": "MU",
+      "image": "https://footapi.hugo.rest/images/premier-league/Manchester-United.svg"
+    }
+  }
+}

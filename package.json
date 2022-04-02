@@ -1,0 +1,16 @@
+{
+  "name": "@FootAPI/backend",
+  "version": "1.0.0",
+  "description": "🤖 The back end of the FootAPI",
+  "main": "app.js",
+  "author": "Hugo <wheredidhugo@protonmail.com>",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
