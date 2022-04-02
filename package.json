@@ -1,6 +1,6 @@
 {
   "name": "@FootAPI/backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🤖 The back end of the FootAPI",
   "main": "app.js",
   "author": "Hugo <wheredidhugo@protonmail.com>",
@@ -11,6 +11,7 @@
     "dev": "nodemon ."
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3"
   }
 }

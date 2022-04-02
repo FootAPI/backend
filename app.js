@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors")
 const app = express();
 
 const clubs = require("./clubs.json");
@@ -7,6 +8,9 @@ function randomProperty(obj) {
   var keys = Object.keys(obj);
   return obj[keys[ keys.length * Math.random() << 0]];
 };
+
+app.use(express.json());
+app.use(cors());
 
 app.get("/clubs", (req, res) => {
   res.json(clubs)
