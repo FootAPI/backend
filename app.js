@@ -1,32 +1,40 @@
-const express = require("express");
-const cors = require("cors")
-const app = express();
-
-const clubs = require("./clubs.json");
+const express = require("express"),
+  rateLimit = require("express-rate-limit"),
+  cors = require("cors"),
+  app = express(),
+  clubs = require("./clubs.json");
 
 function randomProperty(obj) {
   var keys = Object.keys(obj);
-  return obj[keys[ keys.length * Math.random() << 0]];
-};
+  return obj[keys[(keys.length * Math.random()) << 0]];
+}
 
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+
+app.use(limiter);
 app.use(express.json());
 app.use(cors());
 
 app.get("/clubs", (req, res) => {
-  res.json(clubs)
+  res.json(clubs);
 });
 
 app.get("/clubs/random", (req, res) => {
   var randomClub = randomProperty(randomProperty(clubs));
-  res.json({random: randomClub});
+  res.json({ random: randomClub });
 });
 
 app.get("/clubs/random/:league", (req, res) => {
   if (clubs[req.params.league]) {
     var randomClub = randomProperty(clubs[req.params.league]);
-    res.json({random: randomClub});
+    res.json({ random: randomClub });
   } else {
-    res.status(404).json({message: "Not Found"})
+    res.status(404).json({ message: "Not Found" });
   }
 });
 
