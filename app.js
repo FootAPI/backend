@@ -2,7 +2,8 @@ const express = require("express"),
   rateLimit = require("express-rate-limit"),
   cors = require("cors"),
   app = express(),
-  clubs = require("./clubs.json");
+  clubs = require("./clubs.json"),
+  leagues = require("./leagues.json");
 
 function randomProperty(obj) {
   var keys = Object.keys(obj);
@@ -23,6 +24,19 @@ app.use(cors());
 app.get("/clubs", (req, res) => {
   res.json(clubs);
 });
+
+app.get("/leagues", (req, res) => {
+  res.json(leagues);
+});
+
+app.get("/leagues/:league", (req,res) => {
+  var leagueReq = req.params.league;
+  if(leagues[leagueReq]) {
+    res.json({league: leagues[leagueReq]})
+  } else {
+    res.status(404).json({ message: "Not Found" });
+  }
+})
 
 app.get("/clubs/:league", (req,res) => {
   var leagueReq = req.params.league;

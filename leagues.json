@@ -1,0 +1,10 @@
+{
+  "ligue-1": {
+    "name": "Ligue 1 Uber Eats",
+    "image": "https://footapi.cf/images/leagues/Ligue-1.svg"
+  },
+  "premier-league": {
+    "name": "Premier League",
+    "image": "https://footapi.cf/images/leagues/Premier-League.svg"
+  }
+}
