@@ -1,9 +1,9 @@
 {
   "name": "@FootAPI/backend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🤖 The back end of the FootAPI",
   "main": "app.js",
-  "author": "Hugo <wheredidhugo@protonmail.com>",
+  "author": "Hugo <footapi@protonmail.com>",
   "license": "MIT",
   "keywords": [],
   "scripts": {
