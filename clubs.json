@@ -116,6 +116,86 @@
       "name": "Manchester United",
       "initials": "MU",
       "image": "https://footapi.cf/images/premier-league/Manchester-United.svg"
+    },
+    "liverpool": {
+      "name": "Liverpool Football Club",
+      "initials": "Liverpool",
+      "image": "https://footapi.cf/images/premier-league/Liverpool.svg"
+    },
+    "tottenham": {
+      "name": "Tottenham Hotspur Football Club",
+      "initials": "Tottenham",
+      "image": "https://footapi.cf/images/premier-league/Tottenham.svg"
+    },
+    "west-ham": {
+      "name": "West Ham United Football Club",
+      "initials": "West Ham",
+      "image": "https://footapi.cf/images/premier-league/West-Ham.svg"
+    },
+    "wolves": {
+      "name": "Wolverhampton Wanderers Football Club",
+      "initials": "Wolves",
+      "image": "https://footapi.cf/images/premier-league/Wolves.svg"
+    },
+    "leicester": {
+      "name": "Leicester City Football Club",
+      "initials": "Leicester",
+      "image": "https://footapi.cf/images/premier-league/Leicester.svg"
+    },
+    "aston-villa": {
+      "name": "Aston Villa Football Club",
+      "initials": "Aston Villa",
+      "image": "https://footapi.cf/images/premier-league/Aston-Villa.svg"
+    },
+    "southampton": {
+      "name": "Southampton Football Club",
+      "initials": "Southampton",
+      "image": "https://footapi.cf/images/premier-league/Southampton.svg"
+    },
+    "crystal-palace": {
+      "name": "Crystal Palace Football Club",
+      "initials": "Crystal Palace",
+      "image": "https://footapi.cf/images/premier-league/Crystal-Palace.svg"
+    },
+    "brighton": {
+      "name": "Brighton & Hove Albion Football Club",
+      "initials": "Brighton",
+      "image": "https://footapi.cf/images/premier-league/Brighton.svg"
+    },
+    "brentford": {
+      "name": "Brentford Football Club",
+      "initials": "Brentford",
+      "image": "https://footapi.cf/images/premier-league/Brentford.svg"
+    },
+    "newcastle": {
+      "name": "Newcastle United Football Club",
+      "initials": "Newcastle",
+      "image": "https://footapi.cf/images/premier-league/Newcastle.svg"
+    },
+    "leeds-united": {
+      "name": "Leeds United Football Club",
+      "initials": "Leeds United",
+      "image": "https://footapi.cf/images/premier-league/Leeds-United.svg"
+    },
+    "everton": {
+      "name": "Everton Football Club",
+      "initials": "Everton",
+      "image": "https://footapi.cf/images/premier-league/Everton.svg"
+    },
+    "Watford": {
+      "name": "Watford Football Club",
+      "initials": "Watford",
+      "image": "https://footapi.cf/images/premier-league/Watford.svg"
+    },
+    "Burnley": {
+      "name": "Burnley Football Club",
+      "initials": "Burnley",
+      "image": "https://footapi.cf/images/premier-league/Burnley.svg"
+    },
+    "norwich-city": {
+      "name": "Norwich City Football Club",
+      "initials": "Norwich City",
+      "image": "https://footapi.cf/images/premier-league/Norwich-City.svg"
     }
   }
 }
