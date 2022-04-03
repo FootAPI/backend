@@ -24,6 +24,15 @@ app.get("/clubs", (req, res) => {
   res.json(clubs);
 });
 
+app.get("/clubs/:league", (req,res) => {
+  var leagueReq = req.params.league;
+  if(clubs[leagueReq]) {
+    res.json({league: clubs[leagueReq]})
+  } else {
+    res.status(404).json({ message: "Not Found" });
+  }
+})
+
 app.get("/clubs/random", (req, res) => {
   var randomClub = randomProperty(randomProperty(clubs));
   res.json({ random: randomClub });
