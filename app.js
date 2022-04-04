@@ -1,8 +1,9 @@
 const express = require("express"),
   rateLimit = require("express-rate-limit"),
   cors = require("cors"),
-  app = express(),
-  clubs = require("./clubs.json"),
+  app = express();
+
+const clubs = require("./clubs.json"),
   leagues = require("./leagues.json");
 
 function randomProperty(obj) {
@@ -25,27 +26,14 @@ app.get("/clubs", (req, res) => {
   res.json(clubs);
 });
 
-app.get("/leagues", (req, res) => {
-  res.json(leagues);
-});
-
-app.get("/leagues/:league", (req,res) => {
-  var leagueReq = req.params.league;
-  if(leagues[leagueReq]) {
-    res.json({league: leagues[leagueReq]})
-  } else {
-    res.status(404).json({ message: "Not Found" });
-  }
-})
-
-app.get("/clubs/:league", (req,res) => {
+app.get("/clubs/:league", (req, res) => {
   var leagueReq = req.params.league;
   if(clubs[leagueReq]) {
     res.json({league: clubs[leagueReq]})
   } else {
     res.status(404).json({ message: "Not Found" });
   }
-})
+});
 
 app.get("/clubs/random", (req, res) => {
   var randomClub = randomProperty(randomProperty(clubs));
@@ -56,6 +44,19 @@ app.get("/clubs/random/:league", (req, res) => {
   if (clubs[req.params.league]) {
     var randomClub = randomProperty(clubs[req.params.league]);
     res.json({ random: randomClub });
+  } else {
+    res.status(404).json({ message: "Not Found" });
+  }
+});
+
+app.get("/leagues", (req, res) => {
+  res.json(leagues);
+});
+
+app.get("/leagues/:league", (req, res) => {
+  var leagueReq = req.params.league;
+  if(leagues[leagueReq]) {
+    res.json({league: leagues[leagueReq]})
   } else {
     res.status(404).json({ message: "Not Found" });
   }
