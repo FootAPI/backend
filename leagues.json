@@ -6,5 +6,9 @@
   "premier-league": {
     "name": "Premier League",
     "image": "https://footapi.cf/images/leagues/Premier-League.svg"
+  },
+  "la-liga": {
+    "name": "LaLiga Santander",
+    "image": "https://footapi.cf/images/leagues/La-Liga.svg"
   }
 }
