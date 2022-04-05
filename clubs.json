@@ -197,5 +197,32 @@
       "initials": "Norwich City",
       "image": "https://footapi.cf/images/clubs/premier-league/Norwich-City.svg"
     }
+  },
+  "la-liga": {
+    "real-madrid": {
+      "name": "Real Madrid Club de Fútbol",
+      "initials": "Real Madrid CF",
+      "image": "https://footapi.cf/images/clubs/la-liga/Real-Madrid.svg"
+    },
+    "fc-barcelona": {
+      "name": "Futbol Club Barcelona",
+      "initials": "FC Barcelona",
+      "image": "https://footapi.cf/images/clubs/la-liga/FC-Barcelona.svg"
+    },
+    "atletico-de-madrid": {
+      "name": "Club Atlético de Madrid S.A.D",
+      "initials": "Atlético de Madird",
+      "image": "https://footapi.cf/images/clubs/la-liga/Atletico-de-Madrid.svg"
+    },
+    "sevilla-fc": {
+      "name": "Sevilla Fútbol Club",
+      "initials": "Sevilla-FC",
+      "image": "https://footapi.cf/images/clubs/la-liga/Sevilla-FC.svg"
+    },
+    "betis-deportivo": {
+      "name": "Betis Deportivo Balompié",
+      "initials": "Betis Deportivo",
+      "image": "https://footapi.cf/images/clubs/la-liga/Betis-Deportivo.svg"
+    }
   }
 }
