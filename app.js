@@ -3,8 +3,8 @@ const express = require("express"),
   cors = require("cors"),
   app = express();
 
-const clubs = require("./clubs.json"),
-  leagues = require("./leagues.json");
+const clubs = require("./jsons/clubs.json"),
+  leagues = require("./jsons/leagues.json");
 
 function randomProperty(obj) {
   var keys = Object.keys(obj);
