@@ -223,6 +223,81 @@
       "name": "Betis Deportivo Balompié",
       "initials": "Betis Deportivo",
       "image": "https://footapi.cf/images/clubs/la-liga/Betis-Deportivo.svg"
+    },
+    "real-sociedad": {
+      "name": "Real Sociedad de Fútbol",
+      "initials": "Real Sociedad",
+      "image": "https://footapi.cf/image/clubs/la-liga/Real-Sociedad.svg"
+    },
+    "villarreal": {
+      "name": "Villarreal Club de Fútbol",
+      "initials": "Villarreal",
+      "image": "https://footapi.cf/image/clubs/la-liga/Villarreal.svg"
+    },
+    "bilbao": {
+      "name": "Athletic de Bilbao",
+      "initials": "Athletic Club",
+      "image": "https://footapi.cf/image/clubs/la-liga/Bilbao.svg"
+    },
+    "valencia": {
+      "name": "Valencia Club de Fútbol",
+      "initials": "Valencia",
+      "image": "https://footapi.cf/image/clubs/la-liga/Valencia.svg"
+    },
+    "osasuna": {
+      "name": "Club Atlético Osasuna",
+      "initials": "CA Osasuna",
+      "image": "https://footapi.cf/image/clubs/la-liga/Osasuna.svg"
+    },
+    "celta-vigo": {
+      "name": "Real Club Celta de Vigo",
+      "initials": "Celta Vigo",
+      "image": "https://footapi.cf/image/clubs/la-liga/Celta-Vigo.svg"
+    },
+    "espanyol": {
+      "name": "Reial Club Deportiu Espanyol de Barcelona",
+      "initials": "RCD Espanyol",
+      "image": "https://footapi.cf/image/clubs/la-liga/Espanyol.svg"
+    },
+    "rayo": {
+      "name": "Rayo Vallecano de Madrid",
+      "initials": "Rayo Vallecano",
+      "image": "https://footapi.cf/image/clubs/la-liga/Rayo-Vallecano.svg"
+    },
+    "getafe": {
+      "name": "Getafe Club de Fútbol",
+      "initials": "Getafe CF",
+      "image": "https://footapi.cf/image/clubs/la-liga/Getafe.svg"
+    },
+    "elche": {
+      "name": "Elche Club de Fútbol",
+      "initials": "Elche CF",
+      "image": "https://footapi.cf/image/clubs/la-liga/Elche.svg"
+    },
+    "granada": {
+      "name": "Granada Club de Fútbol",
+      "initials": "Granada CF",
+      "image": "https://footapi.cf/image/clubs/la-liga/Granada.svg"
+    },
+    "cadiz": {
+      "name": "Cádiz Club de Fútbol",
+      "initials": "Cadix CF",
+      "image": "https://footapi.cf/image/clubs/la-liga/Cadiz.svg"
+    },
+    "mallorca": {
+      "name": "Real Club Deportivo Mallorca",
+      "initials": "RCD Mallorca",
+      "image": "https://footapi.cf/image/clubs/la-liga/Mallorca.svg"
+    },
+    "levante": {
+      "name": "Levante Unión Deportiva",
+      "initials": "Levante UD",
+      "image": "https://footapi.cf/image/clubs/la-liga/Levante.svg"
+    },
+    "deportivo-alaves": {
+      "name": "Deportivo Alavés",
+      "initials": "Deportivo Alavés",
+      "image": "https://footapi.cf/image/clubs/la-liga/Deportivo-Alaves.svg"
     }
   }
 }
